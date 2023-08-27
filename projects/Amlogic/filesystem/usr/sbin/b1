@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+import os, sys, subprocess
+
+p = subprocess.Popen(["/usr/bin/cvlc","/storage/ipaudio/Bein/b1"], stdout=subprocess.PIPE, 
+    stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+
